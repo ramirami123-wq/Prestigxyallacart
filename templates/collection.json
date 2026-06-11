@@ -57,9 +57,8 @@
     },
     "collection-banner": {
       "type": "collection-banner",
-      "disabled": true,
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "image_size": "auto",
         "allow_transparent_header": true,
         "reveal": true,
