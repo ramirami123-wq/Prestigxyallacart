@@ -12,9 +12,11 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "vendor",
-          "settings": {}
+        "liquid_RrheyM": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"font-size:14px;color:#111;display:flex;align-items:center;gap:8px;\">\n  <span style=\"color:#FBBF24;letter-spacing:1px;\">★★★★★</span>\n  <span>Rated by 1,200+ happy customers</span>\n</div>"
+          }
         },
         "title": {
           "type": "title",
@@ -86,7 +88,7 @@
         }
       },
       "block_order": [
-        "vendor",
+        "liquid_RrheyM",
         "title",
         "price",
         "liquid_zkT78w",
