@@ -28,6 +28,12 @@
             "show_taxes_notice": false
           }
         },
+        "liquid_zkT78w": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"background:#FFF9F2;padding:18px;border-radius:14px;font-size:15px;line-height:1.7;color:#444;\">\n\n  <div style=\"margin-bottom:14px;\">\n    <strong style=\"font-size:18px;font-weight:900;color:#111;\">🎨 Stress Relief</strong><br>\n    A calming activity for any time of day.\n  </div>\n\n  <div style=\"margin-bottom:14px;\">\n    <strong style=\"font-size:18px;font-weight:900;color:#111;\">🌸 Cute Designs</strong><br>\n    Filled with cozy and adorable illustrations.\n  </div>\n\n  <div>\n    <strong style=\"font-size:18px;font-weight:900;color:#111;\">✨ Easy & Fun</strong><br>\n    Perfect for beginners and coloring lovers alike.\n  </div>\n\n</div>"
+          }
+        },
         "payment_terms": {
           "type": "payment_terms",
           "settings": {}
@@ -83,6 +89,7 @@
         "vendor",
         "title",
         "price",
+        "liquid_zkT78w",
         "payment_terms",
         "separator",
         "description",
