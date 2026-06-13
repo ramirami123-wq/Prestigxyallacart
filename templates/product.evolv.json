@@ -36,10 +36,6 @@
             "liquid": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n<title>V-Boost Features Bar</title>\n<style>\n  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }\n\n  body {\n    font-family: 'Helvetica Neue', Arial, sans-serif;\n    background: #fff;\n  }\n\n  .vb-features-wrap {\n    padding: 28px 20px 24px;\n    background: #fff;\n    border-bottom: 1px solid #e8e8e8;\n  }\n  .vb-tagline {\n    font-size: 15px;\n    color: #333;\n    line-height: 1.55;\n    margin-bottom: 24px;\n    max-width: 520px;\n  }\n  .vb-features {\n    display: flex;\n    gap: 0;\n    flex-wrap: nowrap;\n  }\n  .vb-feat {\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start;\n    gap: 10px;\n    padding-right: 12px;\n  }\n  .vb-feat:last-child { padding-right: 0; }\n  .vb-icon {\n    width: 44px;\n    height: 44px;\n    object-fit: contain;\n    display: block;\n    opacity: 0.9;\n  }\n  .vb-label {\n    font-size: 13px;\n    color: #1a1a1a;\n    line-height: 1.35;\n    font-weight: 400;\n  }\n\n  @media (max-width: 480px) {\n    .vb-tagline { font-size: 14px; margin-bottom: 20px; }\n    .vb-feat { padding-right: 8px; }\n    .vb-icon { width: 36px; height: 36px; }\n    .vb-label { font-size: 12px; }\n  }\n</style>\n</head>\n<body>\n\n<div class=\"vb-features-wrap\">\n  <p class=\"vb-tagline\">High-performance shaping vest helps you stand taller, tone your upper body and flatten problem areas instantly.</p>\n  <div class=\"vb-features\">\n    <div class=\"vb-feat\">\n      <img class=\"vb-icon\" src=\"https://evolv-off.com/cdn/shop/t/20/assets/pdp-feature-get-rid.png\" alt=\"Get Rid of Dad Bod\" />\n      <span class=\"vb-label\">Get Rid of<br>Dad Bod</span>\n    </div>\n    <div class=\"vb-feat\">\n      <img class=\"vb-icon\" src=\"https://evolv-off.com/cdn/shop/t/20/assets/pdp-feature-1-shapes.png\" alt=\"Promotes Weight Loss\" />\n      <span class=\"vb-label\">Promotes<br>Weight Loss</span>\n    </div>\n    <div class=\"vb-feat\">\n      <img class=\"vb-icon\" src=\"https://evolv-off.com/cdn/shop/t/20/assets/pdp-feature-flatten.png\" alt=\"Reduces Man Boobs\" />\n      <span class=\"vb-label\">Reduces<br>Man Boobs</span>\n    </div>\n    <div class=\"vb-feat\">\n      <img class=\"vb-icon\" src=\"https://evolv-off.com/cdn/shop/t/20/assets/pdp-feature-smooth.png\" alt=\"Smooths Love Handles\" />\n      <span class=\"vb-label\">Smooths Love<br>Handles</span>\n    </div>\n  </div>\n</div>\n\n</body>\n</html>"
           }
         },
-        "payment_terms": {
-          "type": "payment_terms",
-          "settings": {}
-        },
         "separator": {
           "type": "separator",
           "disabled": true,
@@ -55,6 +51,7 @@
         },
         "variant_picker": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "hide_sold_out_variants": false,
             "selector_style": "block",
@@ -95,7 +92,6 @@
         "title",
         "price",
         "liquid_zkT78w",
-        "payment_terms",
         "separator",
         "description",
         "variant_picker",
