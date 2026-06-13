@@ -72,6 +72,36 @@
         "overlay_opacity": 30
       }
     },
+    "scrolling_content_czJCRC": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_xQwmPN": {
+          "type": "text",
+          "settings": {
+            "text": "FREE DELIVERY FOR ORDERS ABOVE 34$"
+          }
+        }
+      },
+      "block_order": [
+        "text_xQwmPN"
+      ],
+      "name": "t:sections.scrolling_content.presets.scrolling_content.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "scrolling_speed": 0.3,
+        "scroll_direction": "left",
+        "pause_on_hover": false,
+        "text_font": "heading",
+        "text_font_size_mobile": 16,
+        "text_font_size_desktop": 46,
+        "section_vertical_spacing_mobile": 22,
+        "section_vertical_spacing_desktop": 80,
+        "item_horizontal_spacing_mobile": 80,
+        "item_horizontal_spacing_desktop": 35,
+        "background": "#000000",
+        "text_color": "#FAFAFA"
+      }
+    },
     "main": {
       "type": "main-collection",
       "settings": {
@@ -108,6 +138,7 @@
   },
   "order": [
     "slideshow_UMB6EN",
+    "scrolling_content_czJCRC",
     "collection-banner",
     "main",
     "custom_liquid_CRAB7A"
